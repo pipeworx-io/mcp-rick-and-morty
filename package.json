@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-rick-and-morty",
+  "version": "0.1.0",
+  "description": "Rick and Morty MCP — wraps the Rick and Morty API (free, no auth)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "rick-and-morty"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-rick-and-morty"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
