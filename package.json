@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-rick-and-morty",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rick and Morty MCP — wraps the Rick and Morty API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-13412a30b6abed3f8da3795a0ceccbf2c97ea79cea63ed820c22a4c5cab2a1e0",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-08634f5e71c4f7d053730f697d7a40db448620d225a7f5932951a4419456d852",
+    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
   }
 }
