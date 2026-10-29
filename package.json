@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-rick-and-morty",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Rick and Morty MCP — wraps the Rick and Morty API (free, no auth)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-rick-and-morty": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "rick-and-morty"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-rick-and-morty.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/rick-and-morty",
   "pipeworx": {
-    "sourceHash": "v1-08634f5e71c4f7d053730f697d7a40db448620d225a7f5932951a4419456d852",
-    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
+    "mode": "gateway",
+    "slug": "rick-and-morty",
+    "gatewaySlug": "rick-and-morty",
+    "sourceHash": "v1-7f282576f69de48f1b34e1da58dc8f1a8f08edf9c49748fab72e4ad46f011533",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
