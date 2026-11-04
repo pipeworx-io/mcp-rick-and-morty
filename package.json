@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-rick-and-morty",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Rick and Morty MCP — wraps the Rick and Morty API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "rick-and-morty",
     "gatewaySlug": "rick-and-morty",
-    "sourceHash": "v1-7f282576f69de48f1b34e1da58dc8f1a8f08edf9c49748fab72e4ad46f011533",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-ef8b8aacc1127d32993b7eafba3a92fd6e63f3fdf9f66c5e3e58e8020843df9a",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
